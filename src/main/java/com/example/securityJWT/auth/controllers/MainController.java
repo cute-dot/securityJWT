@@ -1,4 +1,4 @@
-package com.example.securityJWT.Auth.Conrollers;
+package com.example.securityJWT.auth.controllers;
 
 
 import lombok.RequiredArgsConstructor;

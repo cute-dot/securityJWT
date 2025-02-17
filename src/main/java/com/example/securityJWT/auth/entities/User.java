@@ -1,4 +1,4 @@
-package com.example.securityJWT.Auth.Entities;
+package com.example.securityJWT.auth.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -6,6 +6,7 @@ import lombok.Data;
 import java.util.Collection;
 
 
+@Entity
 @Data
 @Table(name = "users")
 public class User {
@@ -15,8 +16,8 @@ public class User {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "name")
-    private String UserName;
+    @Column(name = "username")
+    private String userName;
 
     @Column(name = "password")
     private String password;
@@ -26,7 +27,7 @@ public class User {
 
     @ManyToMany
     @JoinTable(
-            name = "user_roles",
+            name = "users_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id")
     )

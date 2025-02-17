@@ -1,7 +1,7 @@
-package com.example.securityJWT.Auth.Services;
+package com.example.securityJWT.auth.services;
 
-import com.example.securityJWT.Auth.Entities.User;
-import com.example.securityJWT.Auth.Repositories.UserRepository;
+import com.example.securityJWT.auth.entities.User;
+import com.example.securityJWT.auth.repositories.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

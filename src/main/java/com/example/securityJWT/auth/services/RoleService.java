@@ -1,7 +1,7 @@
-package com.example.securityJWT.Auth.Services;
+package com.example.securityJWT.auth.services;
 
-import com.example.securityJWT.Auth.Entities.Role;
-import com.example.securityJWT.Auth.Repositories.RoleRepository;
+import com.example.securityJWT.auth.entities.Role;
+import com.example.securityJWT.auth.repositories.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

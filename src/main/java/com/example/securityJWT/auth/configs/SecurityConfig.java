@@ -1,6 +1,6 @@
-package com.example.securityJWT.Auth.Configs;
+package com.example.securityJWT.auth.configs;
 
-import com.example.securityJWT.Auth.Services.UserService;
+import com.example.securityJWT.auth.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

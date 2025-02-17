@@ -1,6 +1,6 @@
-package com.example.securityJWT.Auth.Repositories;
+package com.example.securityJWT.auth.repositories;
 
-import com.example.securityJWT.Auth.Entities.Role;
+import com.example.securityJWT.auth.entities.Role;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

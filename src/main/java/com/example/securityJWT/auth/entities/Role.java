@@ -1,4 +1,4 @@
-package com.example.securityJWT.Auth.Entities;
+package com.example.securityJWT.auth.entities;
 
 
 import jakarta.persistence.*;
@@ -15,6 +15,6 @@ public class Role {
     private Long id;
 
     @Column(name = "name")
-    private String RoleName;
+    private String roleName;
 
 }
